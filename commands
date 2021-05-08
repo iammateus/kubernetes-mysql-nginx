@@ -1,0 +1,4 @@
+kubectl get service -n brincadeirinha
+kubectl get pod -n brincadeirinha
+kubectl exec -it {pod_name} -n brincadeirinha -- sh
+mysql -h {mysql-svc-ip} -u docker
